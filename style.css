@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+body{
+    background: linear-gradient(to right, rgb(0, 255, 13), rgba(200, 230, 33, 0.815));
+   /* background-image: url('https://th.bing.com/th/id/R.487f7f5f261a0b9721c356ddfff11296?rik=7SCoZwsrqkD9Kw&pid=ImgRaw&r=0'); */
+} 
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Alfa Slab One', cursive;
+    color: black;
+}
+h2{
+    color: black;
+    font-family: 'Alfa Slab One', cursive;
+}
+.img-morty{
+    display: grid;
+    place-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+form{
+    display: grid;
+    place-content: center;
+}
+input{
+    box-shadow: 1px 1px 6px 1px white;
+    border: solid 1px white;
+    border-radius: 5px;
+    margin-bottom: 22%;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card:hover{
+    background-color: yellowgreen;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Alfa Slab One', cursive;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Alfa Slab One', cursive;
+}
